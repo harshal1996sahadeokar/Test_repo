@@ -8,7 +8,7 @@ module "ec2_instance" {
   name                   = "E-Commerce_Website"
   instance_type          = "t2.large"
   ami                    = "ami-00bb6a80f01f03502"
-  key_name               = "ANSIBLE"
+  key_name               = "HVS_NEW"
   monitoring             = true
   # Uncomment and provide a valid security group module if required
   # vpc_security_group_ids = [module.sg.security_group_id]
