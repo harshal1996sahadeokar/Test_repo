@@ -13,7 +13,7 @@ module "ec2_instance" {
   # Uncomment and provide a valid security group module if required
   # vpc_security_group_ids = [module.sg.security_group_id]
   subnet_id              = "subnet-0445e169b5580cbee"
-  user_data              = file("userdata.sh")
+  # user_data              = file("userdata.sh")
 
   root_block_device = [
     {
